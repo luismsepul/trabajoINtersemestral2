@@ -17,7 +17,7 @@ public class ListaGenerica<T> {
         this.tamaño = 0;
         this.cabeza = null;
     }
-    
+     
     public void agregar(T elemento){
         Nodo<T> nuevoNodo = new Nodo<>(elemento);
         
@@ -44,5 +44,5 @@ public class ListaGenerica<T> {
         }
         System.out.println(nodoActual.getDato());
     }
-    
+       
 }
